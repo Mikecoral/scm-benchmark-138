@@ -11,8 +11,6 @@
     "README.md": "da56aa802c48b84764d04248d10faf3ed8b577d0654ee9f0fd879d5cc69f12bf",
     "paper_search/benchmark/SCHEMA.md": "a65b49cff3df32f5d07f834c8df2e054d0ee7f1b7df3a6e4eb7ac254b57fd424",
     "paper_search/benchmark/__init__.py": "8ef3f18bf937076400b45ae33946086c71c120ef958f240530477ded4c040bfe",
-    "paper_search/benchmark/__pycache__/__init__.cpython-311.pyc": "f374b647707d6aef8de3606cfd3479639ac19e50a0a943a21345cc66c6356515",
-    "paper_search/benchmark/__pycache__/schema.cpython-311.pyc": "5fda2ab0f1ec60524ab1aaac925de5eb45355fa12ef6508be0cd2ddfe4a9ed08",
     "paper_search/benchmark/answer_key.schema.json": "381188d7f551cc7b678e41f27e753ab0c6af3284b1103b448db94b5d52472bc6",
     "paper_search/benchmark/benchmark.schema.json": "3bd22234174b647995c0e6e67ae7406ee5537878d8aa0b2fd36c99ea8bc7e670",
     "paper_search/benchmark/data/utd-30-papers-138-v1/answer_key.json": "ba831fe361db7e19db8cbd1d816b41d0ea54bf7c76024558640a5828759f13ef",
