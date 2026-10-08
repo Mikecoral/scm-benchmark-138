@@ -1,0 +1,34 @@
+{
+  "profiles": {
+    "model-thinking": {
+      "provider": "openai_compatible",
+      "base_url": "https://YOUR_API_HOST/v1",
+      "model": "YOUR_MODEL_ID",
+      "api_key_env": "BENCHMARK_API_KEY",
+      "temperature": 0,
+      "max_tokens": 32768,
+      "timeout_seconds": 300,
+      "stream": true,
+      "json_mode": false,
+      "retries": 2,
+      "concurrency": 4,
+      "extra_body": {}
+    },
+    "model-no-thinking": {
+      "provider": "openai_compatible",
+      "base_url": "https://YOUR_API_HOST/v1",
+      "model": "YOUR_MODEL_ID",
+      "api_key_env": "BENCHMARK_API_KEY",
+      "temperature": 0,
+      "max_tokens": 32768,
+      "timeout_seconds": 300,
+      "stream": true,
+      "json_mode": false,
+      "retries": 2,
+      "concurrency": 4,
+      "extra_body": {
+        "enable_thinking": false
+      }
+    }
+  }
+}

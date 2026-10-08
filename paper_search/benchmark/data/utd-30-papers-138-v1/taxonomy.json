@@ -1,0 +1,28 @@
+{
+  "taxonomy_version": "scm-business-domain-v1",
+  "min_categories": 1,
+  "max_categories": 2,
+  "ranked": false,
+  "categories": [
+    {
+      "id": "strategy_network_design",
+      "name_zh": "战略与供应网络设计"
+    },
+    {
+      "id": "planning_inventory_replenishment",
+      "name_zh": "计划、库存与补货"
+    },
+    {
+      "id": "sourcing_procurement_supplier_management",
+      "name_zh": "采购、寻源与供应商管理"
+    },
+    {
+      "id": "production_capacity_process_operations",
+      "name_zh": "生产、产能与过程运营"
+    },
+    {
+      "id": "logistics_distribution_fulfillment",
+      "name_zh": "物流、配送与履约"
+    }
+  ]
+}

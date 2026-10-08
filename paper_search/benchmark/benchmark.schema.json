@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "purpose",
+    "items"
+  ],
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "scm-multiselect-v1",
+        "scm-multiselect-v2"
+      ]
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "purpose": {
+      "const": "development_pilot"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "paper_id",
+          "type",
+          "stem",
+          "options"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^P[0-9]+-Q[0-9]+$"
+          },
+          "paper_id": {
+            "type": "string",
+            "pattern": "^P[0-9]+$"
+          },
+          "type": {
+            "const": "multiple_select"
+          },
+          "stem": {
+            "type": "string",
+            "minLength": 1
+          },
+          "options": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "properties": {
+              "A": {
+                "type": "string",
+                "minLength": 1
+              },
+              "B": {
+                "type": "string",
+                "minLength": 1
+              },
+              "C": {
+                "type": "string",
+                "minLength": 1
+              },
+              "D": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
