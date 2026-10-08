@@ -8,7 +8,7 @@
   "sha256": {
     ".gitignore": "ec50049db72a32a66962d90f919c237bfad56f9d779a0932cd01aeb8c4700410",
     "PROMPTS.md": "837187eee0dc91b84ff4938d2f87ce0db3feb2845d56d0335255e4a6a2a309c0",
-    "README.md": "da56aa802c48b84764d04248d10faf3ed8b577d0654ee9f0fd879d5cc69f12bf",
+    "README.md": "456ef916f0da84435925fb2c1fcd99a524cc0c160e3d62a2f1c152a20abd3cf6",
     "paper_search/benchmark/SCHEMA.md": "a65b49cff3df32f5d07f834c8df2e054d0ee7f1b7df3a6e4eb7ac254b57fd424",
     "paper_search/benchmark/__init__.py": "8ef3f18bf937076400b45ae33946086c71c120ef958f240530477ded4c040bfe",
     "paper_search/benchmark/answer_key.schema.json": "381188d7f551cc7b678e41f27e753ab0c6af3284b1103b448db94b5d52472bc6",
@@ -26,6 +26,21 @@
     "paper_search/evaluation/providers.py": "550fb9670ad7607be8ffad6e3bc8fb74bf3caff14066a8c15f5ce47c352dfbec",
     "paper_search/evaluation/report.py": "b2c50158572b3557254ccf627d6868cc8357e4525e121aa3c8148714593125b5",
     "paper_search/evaluation/run.py": "2bd5c70c1d5528255ba235d15d7b6ba3311e581072d69b0642db77db9cd2031a",
-    "requirements.txt": "5078cfda0c7cdbf883869bebd384cf3724251cf78004c7a1dbe9fee5862fc0c4"
+    "requirements.txt": "5078cfda0c7cdbf883869bebd384cf3724251cf78004c7a1dbe9fee5862fc0c4",
+    "scm_benchmark_138.csv": "9cd8f5c75ba1170dee03483eb4c7670ef6e3bf3ffa662b123e7b4220ab6f23ee"
+  },
+  "csv_export": {
+    "file": "scm_benchmark_138.csv",
+    "columns": [
+      "ITEM_ID",
+      "question",
+      "gt_answer"
+    ],
+    "question_count": 138,
+    "item_id": "1-based source items order",
+    "gt_answer": 0,
+    "prompt_protocol": "discussion-answer-json-v2",
+    "encoding": "UTF-8",
+    "literal_newline_normalization": true
   }
 }
